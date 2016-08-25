@@ -79,10 +79,13 @@ section{
 	width: 45%;
 
 }
+#main3{
+	width: 95%;
+}
 }
 @media (max-width: 767px){
 section{
-	width: 80%;
+	width: 90%;
 }
 #main1{
 	height: 320px;
