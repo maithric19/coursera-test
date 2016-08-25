@@ -1,0 +1,93 @@
+*{
+	box-sizing: border-box;
+}
+h1{
+	background-color: teal;
+	color: white;
+	width: 100 vw;
+	text-align: center;
+	font-family: fantasy,sans-serif;
+	font-size: 50px;
+	margin: -9px -9px ;		
+}
+h2{
+	color: red;
+	font-family: monospace;
+	font-size: 45px;
+}
+section{
+	margin-left: 23px;
+	box-sizing: border-box;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	border: 1px solid black;
+	padding: 5px;
+	float: left;
+	color: white;
+	text-align: center;
+	height: 300px;
+
+}
+h3{
+	float: right;;
+	background-color: darkseagreen;
+	width: 105px;
+	height: 25px;
+	margin: -6px -6px;
+	color: beige;
+	border: 1px solid black;
+
+}
+p{
+	clear: both;
+	font-size: 22px;
+
+}
+
+table{
+	border-collapse: collapse;
+	color: white;
+	background-color: cornflowerblue;
+	width: 75%;
+	margin: auto;
+	text-align: left;
+	
+}
+th,td{
+padding: 10px;
+border: 1px solid darkcyan;
+margin-left: 20px;
+}
+#main1{
+	background-color: pink;
+		}
+#main2{
+	background-color: peachpuff;
+}
+#main3{
+	background-color: lightsalmon;
+}
+@media (min-width: 992px){
+section{
+	width: 30%;
+}
+
+
+}
+@media (min-width: 768px) and (max-width: 991px){
+section{
+	width: 45%;
+
+}
+}
+@media (max-width: 767px){
+section{
+	width: 80%;
+}
+#main1{
+	height: 320px;
+}
+#main3{
+	height: 325px;
+}
+}
