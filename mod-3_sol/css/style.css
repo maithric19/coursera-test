@@ -1,8 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     font-size: 16px;
     color: #fff;
     background-color: #557;
     font-family: 'Farsan', sans-serif;
+    
 }
 /**header**/
 #header-nav{
@@ -12,7 +19,7 @@ body{
 
 }
 .navbar-brand{
-    padding-top: 25px;
+   padding-top: 25px;
     
 }
 .navbar-brand h1{
@@ -23,7 +30,6 @@ body{
     font-weight: bold;
     text-shadow: 1px 1px 1px #222;
     margin-top: -10px;
-    margin-bottom: 0;
     line-height: .75;
     letter-spacing: .1em;
 }
@@ -33,31 +39,41 @@ body{
 
 #nav-list{
     background-color: indianred;
-    margin-top: -5px;
+   margin-top: -5px;
     
 }
 #nav-list a{
     color: #fff;
     font-size: 1.4em;
     text-align: center;
+    border: 1px solid bisque;
 }
 #nav-list a:hover{
     background-color: darkseagreen;
     border: 1px solid lightseagreen;
 }
 /**header END**/
-                                               
+.wrap{
+    padding: 2vh;
+    background-color: teal;
+}                                               
 
 #page-title{
     font-family: 'Arima Madurai',sans-serif;
     font-weight: 700;
     font-size: 1.8em;
-    margin-bottom: 40px;
-    margin-top: 30px;
+   margin-bottom: 30px;;
+    margin-top: 20px;;
     padding-top: 10px;
 }
 
 /**main-content**/
+
+.menu-item-description{
+    margin-bottom: 20px;
+    
+}
+
 #menu-item{
     background-color: teal;
 }
@@ -69,32 +85,31 @@ body{
 }
 
 #main-content{
-    padding-left: 30px;
-    padding-right: 5px;
+   
     margin-bottom: 15px;
-    
+}
+#uptop{
+    color: #557;
+    font-size: 1.3em;
+    font-weight: 700;
 }
 
 @media (max-width:768px){
-    #header-nav{
-        height: 70px;
-    }
+  
     .navbar-brand h1{
         font-size: 2.1em;
     }
     #page-title{
         font-size: 1.9em; 
-        display: block;
-
     } 
 
-
     #main-content{
-        padding-left: 8vh;
-        padding-right: 4vh;
         margin-bottom: 30px;
     }
-   
+    .menu-item-description{
+        padding: 7vh;
+        margin-bottom: 20px;
+    }
 
 
 }
